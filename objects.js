@@ -1,4 +1,4 @@
-var playlist = { "David Bowie": "Five Years" };
+var playlist = new Object ({ artistName: songTitle })
 
 function updatePlaylist(obj, key, value) {
   obj[key] = value
